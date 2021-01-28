@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Trialist Manager",
+    "slug": "trialistmanager",
+    "privacy": "public",
+    "ios": {
+      "bundleIdentifier": "codes.nicola.trialistmanager"
+    },
+    "android": {
+      "package": "codes.nicola.trialistmanager",
+      "permissions": [],
+      "versionCode": 7
+    },
+    "version": "2.1.5",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png"
+  }
+}
