@@ -43,9 +43,8 @@ const dragItemStyles = StyleSheet.create({
     }
 })
  
-const DragItem = ({ style, drag, dragOver, ...props, }) => (
-    <View {...props} style={[ dragItemStyles.view, drag && dragItemStyles.drag, dragOver && dragItemStyles.dragOver, style ]}
-    >
+const DragItem = ({ style, drag, dragOver, ...props }) => (
+    <View {...props} style={[ dragItemStyles.view, drag && dragItemStyles.drag, dragOver && dragItemStyles.dragOver, style ]}>
         <Text style={{flex: 1}}>{props.name}</ Text>
 
     </View>
