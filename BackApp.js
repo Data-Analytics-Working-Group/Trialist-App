@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Alert, StyleSheet, Text, View, TextInput, Button, KeyboardAvoidingView, FlatList, TouchableOpacity, ScrollView } from 'react-native';
 import firebase from 'firebase';
-import { createStackNavigator, createAppContainer } from "react-navigation";
+import { createAppContainer } from "react-navigation";
+import { createStackNavigator } from "react-navigation-stack";
 
 import Evaluator from './Evaluator';
 /*import DragList from './DragList';*/

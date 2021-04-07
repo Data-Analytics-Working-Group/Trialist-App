@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { createStackNavigator, createAppContainer } from "react-navigation";
-import * as firebase from 'firebase';
+import { createAppContainer } from "react-navigation";
+import { createStackNavigator } from "react-navigation-stack";
+import firebase from 'firebase';
 import { firebaseConfig } from './config';
 
 if (!firebase.apps.length) {
